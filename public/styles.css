@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.body{
+    margin: 0;
+    padding: 0;
+}
+.navbar-expand-lg {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    width: 100% !important;
+    position: fixed !important;
+    top: 0;
+    z-index: 1000000 !important;
+}
+.navbar {
+    background-color: white;
+    padding: 13px 135px !important;
+    box-shadow: 1px 1px 11px #989595;
+}
+.nav-item{
+    margin: 0 10px;
+}
+.navlink:hover:hover{
+    color: rgb(248, 55, 55);
+    transition: all 0.2s ease-in-out;
+}
+.navbar-collapse{
+    transition: all 0.4s ease-in-out !important;
+}
+.navlink{
+    font-family: 'Rubik', sans-serif;
+    color: #191818;
+    transition: all 0.2s ease-in-out;
+    font-size: 19px;
+}
+.navlink:hover{
+    text-decoration: none;
+}
+.logoImage {
+    height: auto;
+    width: 168px;
+}
+.singleBlogImage{
+    width: 600px;
+    height: auto;
+    position: relative;
+    animation:bouncharrow 8s infinite;                                                                                                                                                                                     
+}
+@keyframes bouncharrow {
+    0%{top:0px;}
+    50%{top:40px;}
+    100%{top:0px;}
+
+}
+
+.technologyImage{
+    width: 600px;
+    height: auto;
+    position: relative;
+    animation:bouncharrowImage 8s infinite;   
+}
+@keyframes bouncharrowImage {
+    0%{top:0px;}
+    50%{top:40px;}
+    100%{top:0px;}
+
+}
